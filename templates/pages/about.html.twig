@@ -1,0 +1,12 @@
+{% block header %}
+    {% include 'pages/navbar.html.twig' %}
+{% endblock %}
+{% block body %}
+<img src="https://thumbs.dreamstime.com/b/e-learning-online-education-concept-illustration-teacher-computer-monitor-people-studying-home-via-internet-vector-cartoon-189798081.jpg" alt="image" >
+    <h1>Built with love By Eya </h1>
+     <a href="{{ path('app_pages') }}">Home Page</a><br>
+      <a href="{{ path('app_about') }}">About Us</a>
+{% endblock %}
+ {% block footer %}
+        {% include 'pages/footer.html.twig' %}
+    {% endblock %}

@@ -1,0 +1,13 @@
+{% block header %}
+    {% include 'pages/navbar.html.twig' %}
+{% endblock %}
+
+{% block body %}
+<img src="https://cdn.nawaat.org/wp-content/uploads/2022/10/tunisian-laws-feat-680x350.jpg" alt="image" ><br>
+   <h1>Hello from Tunisia </h1>
+   <p>It's currently {{ 'now'|date('H:i A') }}</p>
+   <a href="{{ path('app_about') }}">Page About</a>
+{% endblock %}
+{% block footer %}
+    {% include 'pages/footer.html.twig' %}
+{% endblock %}
